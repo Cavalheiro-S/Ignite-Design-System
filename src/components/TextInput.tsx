@@ -25,7 +25,7 @@ TextInputRoot.displayName = "TextInput.Root";
 function TextInputInput(props: TextInputInputProps) {
 
     return (
-        <input className="bg-transparent outline-none flex-1 text-gray-900 placeholder:text-gray-600" {...props} />
+        <input className="bg-transparent items-center outline-none flex-1 text-gray-900 placeholder:text-gray-600 text-sm" {...props} />
     )
 }
 
