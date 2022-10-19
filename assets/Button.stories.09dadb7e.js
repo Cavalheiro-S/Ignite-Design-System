@@ -1,0 +1,2 @@
+import{B as t}from"./Button.726acebd.js";import"./index.module.c8b36da2.js";import"./jsx-runtime.7fdd1291.js";import"./iframe.dde03a80.js";import"./clsx.m.256e9345.js";const i={title:"Components/Button",component:t,args:{children:"Entrar",disabled:!1},argTypes:{asChild:{table:{disable:!0}}}},n={},l={args:{disabled:!0}},d=["Default","Disabled"];export{n as Default,l as Disabled,d as __namedExportsOrder,i as default};
+//# sourceMappingURL=Button.stories.09dadb7e.js.map
