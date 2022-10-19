@@ -15,7 +15,10 @@ export function SignIn() {
 
     const handleSubmit = async (event: FormEvent) => {
         event.preventDefault();
-        const response = await axios.post<{ message: string }>("/sessions")
+        const response = await axios.post<{ message: string }>("/sessions", {
+            email: "luccribeiro53@gmail.com",
+            password: "12345678"
+        })
         console.log(response.data.message);
         setIsUserSignIn(true)
     }
